@@ -1,8 +1,8 @@
 {
-  "name": "ARIF-BABU",
+  "name": "LEGEND-ARYAN",
   "version": "10.1.1",
-  "description": "MADE BY ARIF BABU 🥀",
-  "main": "ARIF-BABU.js",
+  "description": "MADE BY LEGEND-ARYAN 🥀",
+  "main": "LEGEND-ARYAN.js",
   "engines": {
       "node": "20.x",
       "npm": "10.0.0"
@@ -14,7 +14,7 @@
   },
   "repository": {
       "type": "git",
-      "url": "https://github.com/arif-11/arif-bot/issues"
+      "url": "https://github.com/aryan-11/aryan-bot/issues"
   },
   "keywords": [
       "bot",
@@ -26,12 +26,12 @@
       "prince",
       "mental"
   ],
-  "author": "ARIF-BABU 🥀",
+  "author": "LEGEND-ARYAN 🥀",
   "license": "GPL-3.0",
   "bugs": {
-      "url": "https://github.com/arif-11/arif-bot/issues"
+      "url": "https://github.com/aryan-11/aryan-bot/issues"
   },
-  "homepage": "https://github.com/arif-11/arif-bot/issues",
+  "homepage": "https://github.com/aryan-11/aryan-bot/issues",
   "dependencies": {
       "@distube/ytdl-core": "^4.13.2",
       "@miraipr0ject/assets": "^1.0.9",
