@@ -4,12 +4,11 @@
 
 </h3>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&font-weight=bold&size=20&color=FFFF00&background=FF0000&center=true&vCenter=true&width=400&height=60&lines=HELLO+FRIENDS+I'M+MR+ARIF+BABU+😈+🤞;ARIF+PROJECT+BOT;ARIF+FCA+BOT;THANKYOU+FOR+USING+ARIF+PROJECT&border=20px+solid+000000&speed=100)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&font-weight=bold&size=20&color=FFFF00&background=FF0000&center=true&vCenter=true&width=400&height=60&lines=HELLO+FRIENDS+I'M+MR+LEGEND+ARYAN+😈+🤞;ARYAN+PROJECT+BOT;ARYAN+FCA+BOT;THANKYOU+FOR+USING+ARYAN+PROJECT&border=20px+solid+000000&speed=100)](https://git.io/typing-svg)
 
-[![Facebook](https://img.shields.io/badge/Facebook-green?style=for-the-badge&logo=facebook)](https://www.facebook.com/profile.php?id=61553634015672&mibextid=kFxxJD)
-[![Instagram](https://img.shields.io/badge/Instagram-purple?style=for-the-badge&logo=instagram)](😃)
+[![Facebook](https://www.facebook.com/100095349618966/posts/454495094405474/?substory_index=1105638057649846&app=fbl)](https://www.facebook.com/profile.php?id=61553634015672&mibextid=kFxxJD)
 
-![Image](https://i.imgur.com/cWkpLqT.jpeg)
+![https://i.imgur.com/0aARWU3.jpeg)
 
 
 ## NPM INSTALL 
