@@ -8,7 +8,7 @@
 
 [![Facebook](https://www.facebook.com/100095349618966/posts/454495094405474/?substory_index=1105638057649846&app=fbl)
 
-![Image](https://i.imgur.com/cWkpLqT.jpeg)
+![Image](https://i.imgur.com/0aARWU3.jpeg)
 
 
 ## NPM INSTALL 
