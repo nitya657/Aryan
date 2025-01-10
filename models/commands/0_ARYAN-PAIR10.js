@@ -41,7 +41,7 @@ async function makeImage({ one, two }) {
 
     let circleOne = await jimp.read(await circle(avatarOne));
     let circleTwo = await jimp.read(await circle(avatarTwo));
-    pairing_img.composite(circleOne.resize(245, 245), 100, 115).composite(circleTwo.resize(245, 245), 480, 100);
+    pairing_img.composite(circleOne.resize(260, 260), 90, 112).composite(circleTwo.resize(260, 260), 480, 80);
 
     let raw = await pairing_img.getBufferAsync("image/png");
 
@@ -77,5 +77,10 @@ module.exports. run = async function({ api, event, args, Users, Threads, Currenc
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍  " : "Tran Duc Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `Congratulations ${namee} is paired with ${name} \n ️The odds are: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: ` ${namee} ❤️💐❤️ ${name} \n ️♥️❥❥══════❥❥♥️❥❥══════❥❥♥️
+              जी भर क देखू तुझे अगर गवारा हो .
+♥️❥❥══════❥❥♥️❥❥══════❥❥♥️
+          बेताब मेरी नज़रे हो और चेहरा तुम्हारा हो . 
+♥️❥❥══════❥❥♥️❥❥══════❥❥♥️
+〔===== •𝐀𝐀𝐏 𝐃𝐎𝐍𝐎 𝐊𝐀 𝐏𝐘𝐀𝐑• =====☞: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
 }
