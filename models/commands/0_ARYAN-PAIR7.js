@@ -77,9 +77,9 @@ module.exports. run = async function({ api, event, args, Users, Threads, Currenc
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍  " : "Tran Duc Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `${namee}  💐❤️💐 ${name} \n ️💋😍__"TƏɽɪ Dʜαɖƙαŋ ┣𝐥ɪ ZɪŋɖαԌɪ Kα Kɪssα ┣𝐥𝙰ɪ MƏɽα"--🔐❤🥰🌎
-
-🫶🎻__"Tʋ ZɪŋɖαԌɪ Kα Eƙ A𝙰ʜαɱ ┣𝐥ɪssα ┣𝐥𝙰ɪ MƏɽα"--🎻🍒
-
-🌸💋__"--😘🍁The odds are: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: `${namee}  💐❤️💐 ${name} \n ️💋😍__♥️❥❥══════❥❥♥️❥❥══════❥❥♥️
+              आँखों में दोस्तो जो पानी है
+♥️❥❥══════❥❥♥️❥❥══════❥❥♥️
+             हुस्न वालों की ये मेहरबानी है |
+♥️❥❥══════❥❥♥️❥❥══════❥❥♥️😘〔===== •𝐀𝐀𝐏 𝐃𝐎𝐍𝐎 𝐊𝐀 𝐏𝐘𝐀𝐑• =====☞: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
 }
