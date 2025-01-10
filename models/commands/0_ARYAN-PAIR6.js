@@ -2,8 +2,8 @@ module.exports.config = {
         name: "pair6",
         version: "1.0.1",
         hasPermssion: 0,
-        credits: "ARIF BABU",
-        description: "MADE BY ARIF BABU",
+        credits: "LEGEND ARYAN",
+        description: "MADE BY LEGEND ARYAN",
         commandCategory: "Picture",
         cooldowns: 5,
         dependencies: {
@@ -41,7 +41,7 @@ async function makeImage({ one, two }) {
 
     let circleOne = await jimp.read(await circle(avatarOne));
     let circleTwo = await jimp.read(await circle(avatarTwo));
-    pairing_img.composite(circleOne.resize(195, 195), 165, 150).composite(circleTwo.resize(195, 195), 510, 150);
+    pairing_img.composite(circleOne.resize(195, 195), 153, 150).composite(circleTwo.resize(195, 195), 510, 150);
 
     let raw = await pairing_img.getBufferAsync("image/png");
 
@@ -77,5 +77,11 @@ module.exports. run = async function({ api, event, args, Users, Threads, Currenc
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍  " : "Tran Duc Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `Congratulations ${namee} is paired with ${name} \n ️The odds are: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: ` ${namee} 💐❤️💐❤️ ${name} \n ️☆┼━ ❤️•°𝐌𝐮𝐣𝐡𝐞 𝐉𝐚𝐛 𝐁𝐡𝐢𝐢 𝐌𝐢𝐥𝐨 𝐓𝐨 𝐍𝐚𝐳𝐫𝐞°• 😍
+
+ 🌸 •°𝐔𝐭𝐡𝐚𝐤𝐚𝐫 𝐌𝐢𝐥𝐨 𝐌𝐮𝐣𝐡𝐞 𝐏𝐚𝐬𝐬𝐚𝐧𝐝 𝐇𝐚𝐢°• 💫
+             
+      •°𝐀𝐩𝐧𝐞 𝐀𝐚𝐩..𝐊𝐨 𝐓𝐞𝐫𝐢 𝐀𝐚𝐧𝐤𝐡𝐨𝐧 𝐌𝐞 𝐃𝐞𝐤𝐡𝐧𝐚°•
+
+🥀🧡❤️__〔===== •𝐀𝐀𝐏 𝐃𝐎𝐍𝐎 𝐊𝐀 𝐏𝐘𝐀𝐑• =====☞: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
 }
