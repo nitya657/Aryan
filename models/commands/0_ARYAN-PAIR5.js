@@ -41,7 +41,7 @@ async function makeImage({ one, two }) {
 
     let circleOne = await jimp.read(await circle(avatarOne));
     let circleTwo = await jimp.read(await circle(avatarTwo));
-    pairing_img.composite(circleOne.resize(147, 147), 157, 179).composite(circleTwo.resize(150, 150), 390, 160);
+    pairing_img.composite(circleOne.resize(147, 147), 155, 179).composite(circleTwo.resize(150, 150), 390, 195);
 
     let raw = await pairing_img.getBufferAsync("image/png");
 
@@ -77,5 +77,17 @@ module.exports. run = async function({ api, event, args, Users, Threads, Currenc
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍  " : "Tran Duc Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `Congratulations ${namee} is paired with ${name} \n ️The odds are: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: ` ${namee} ❤️ ${name} \n ️,,❉্᭄͜͡✣█✣█✣█✣█✣█✣█✣█❉্᭄͜͡
+
+     ♥︎⊶⊷⊶⊷💛❍❤️❍💜⊶⊷⊶⊷♥︎                      
+    ︗︗︗︗︗︗︗︗︗︗︗︗︗︗︗︗
+      ❍♥️♥️❍♥️♥️❍♥️♥️❍♥️♥️❍
+         𝐊𝐞𝐬𝐞 𝐤𝐞𝐡𝐝𝐮 𝐦𝐨𝐡𝐚𝐛𝐛𝐚𝐭 𝐧𝐚𝐡𝐢 𝐡𝐚𝐢
+         𝐀𝐚𝐩𝐬𝐞 𝐦𝐞𝐫𝐞 𝐥𝐢𝐲𝐞 𝐦𝐨𝐡𝐚𝐛𝐛𝐚𝐭 𝐤𝐚
+                     𝐌𝐚𝐭𝐥𝐚𝐛 𝐡𝐢 𝐚𝐚𝐩 𝐡𝐨
+      ❍♥️♥️❍♥️♥️❍♥️♥️❍♥️♥️❍
+  ╔╬⓼★⓼╃───────➣™
+🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐
+╰✾✾®️╀✿✿╀─━ↈⓇ⧐
+      ♥︎⊶⊷⊶⊷♥️❍♥️❍♥️⊶⊷⊶⊷♥︎〔===== •𝐀𝐀𝐏 𝐃𝐎𝐍𝐎 𝐊𝐀 𝐏𝐘𝐀𝐑• =====☞: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
 }
