@@ -2,8 +2,8 @@ module.exports.config = {
         name: "pair7",
         version: "1.0.1",
         hasPermssion: 0,
-        credits: "ARIF BABU",
-        description: "MADE BY ARIF BABU",
+        credits: "LEGEND ARYAN",
+        description: "MADE BY LEGEND ARYAN",
         commandCategory: "Picture",
         cooldowns: 5,
         dependencies: {
@@ -18,7 +18,7 @@ module.exports.onLoad = async() => {
     const dirMaterial = __dirname + `/cache/canvas/`;
     const path = resolve(__dirname, 'cache/canvas', 'pairing.png7');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
-    if (!existsSync(path)) await downloadFile("https://i.imgur.com/codu0gf.jpeg", path);
+    if (!existsSync(path)) await downloadFile("https://i.imgur.com/Aft9Z5s.jpeg", path);
 }
 
 async function makeImage({ one, two }) {
@@ -41,7 +41,7 @@ async function makeImage({ one, two }) {
 
     let circleOne = await jimp.read(await circle(avatarOne));
     let circleTwo = await jimp.read(await circle(avatarTwo));
-    pairing_img.composite(circleOne.resize(100, 100), 142, 180).composite(circleTwo.resize(110, 110), 553, 180);
+    pairing_img.composite(circleOne.resize(221, 215), 8, 61).composite(circleTwo.resize(220, 210), 260, 75);
 
     let raw = await pairing_img.getBufferAsync("image/png");
 
@@ -77,5 +77,9 @@ module.exports. run = async function({ api, event, args, Users, Threads, Currenc
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍  " : "Tran Duc Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `Congratulations ${namee} is paired with ${name} \n ️The odds are: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: `${namee}  💐❤️💐 ${name} \n ️💋😍__"TƏɽɪ Dʜαɖƙαŋ ┣𝐥ɪ ZɪŋɖαԌɪ Kα Kɪssα ┣𝐥𝙰ɪ MƏɽα"--🔐❤🥰🌎
+
+🫶🎻__"Tʋ ZɪŋɖαԌɪ Kα Eƙ A𝙰ʜαɱ ┣𝐥ɪssα ┣𝐥𝙰ɪ MƏɽα"--🎻🍒
+
+🌸💋__"--😘🍁The odds are: 〘${tle}〙`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
 }
