@@ -2,8 +2,8 @@ module.exports.config = {
         name: "pair4",
         version: "1.0.1",
         hasPermssion: 0,
-        credits: "ARIF BABU",
-        description: "MADE BY ARIF BABU",
+        credits: "LEGEND ARYAN",
+        description: "MADE BY LEGEND ARYAN",
         commandCategory: "Picture",
         cooldowns: 5,
         dependencies: {
@@ -41,7 +41,7 @@ async function makeImage({ one, two }) {
 
     let circleOne = await jimp.read(await circle(avatarOne));
     let circleTwo = await jimp.read(await circle(avatarTwo));
-    pairing_img.composite(circleOne.resize(250, 240), 95, 102).composite(circleTwo.resize(255, 240), 505, 100);
+    pairing_img.composite(circleOne.resize(255, 245), 95, 102).composite(circleTwo.resize(255, 245), 505, 100);
 
     let raw = await pairing_img.getBufferAsync("image/png");
 
