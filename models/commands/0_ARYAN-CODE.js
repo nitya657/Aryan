@@ -15,8 +15,6 @@ module.exports.run = async({ api, event, args }) => {
     const axios = global.nodemodule["axios"];
     const fs = global.nodemodule["fs-extra"];
     const cheerio = global.nodemodule["cheerio"];
-  const permission = ["100037743553265", ];
-	if (!permission.includes(event.senderID)) return api.sendMessage("callad There's This  Code Breaker Boss:))", event.threadID, event.messageID);
 
     if (args.length == 0) return api.sendMessage("Syntax Error", event.threadID);
     var path = __dirname + '/';
