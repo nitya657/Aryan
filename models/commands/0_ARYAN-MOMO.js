@@ -1,9 +1,9 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "momos",
+  name: "momo",
     version: "2.1.1",
   hasPermssion: 0,
-  credits: "LEGEND-ARYAN ", 
+  credits: "LEGEND ARYAN ", 
   description: "Just Respond",
   commandCategory: "no prefix",
     cooldowns: 5, 
@@ -13,17 +13,13 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("fast food") ||
-     react.includes("moMo") || react.includes("Momos") || react.includes("MOMOS") ||
-react.includes("momo") ||
-react.includes("Momo") ||     
-react.includes("MOMO")) {
+  if(react.includes("Chines") ||
+     react.includes("MOMOS") || react.includes("MOMO") || react.includes("Momos") ||
+react.includes("Momo") ||
+react.includes("momos") ||     
+react.includes("momo")) {
     var msg = {
-        body: `${name} 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐀𝐏𝐊𝐀 𝐌𝐎𝐌𝐎 𝐀𝐆𝐀𝐘𝐀💐✿
- •⊰ ☞𓅂 ╔╬⓼★⓼╃───────➣™
-🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐
-╰✾✾®️╀✿✿╀─━ↈⓇ⧐𓅂☜ ⊱•`,
-attachment: fs.createReadStream(__dirname + `/noprefix/Momos.jpg`)
+        body: `${name} 💐𝐘𝐄𝐇 𝐋𝐎 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍 𝐌𝐎𝐌𝐎 𝐊𝐇𝐀𝐎💐✿`,attachment: fs.createReadStream(__dirname + `/Aryan/received_1279399373384260.jpeg`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)
