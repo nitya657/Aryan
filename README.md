@@ -1,21 +1,20 @@
+## WELCOME TO LEGEND ARYAN BOT
 ## <h3 align="center">
 
-  <p align="center"><img src="https://img.shields.io/badge/WELCOME%20TO -ARYAN PROJECT BOT-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
+  <p align="center"><img src="https://img.shields.io/badge/WELCOME%20TO -Legend aryan-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
 
 </h3>
+<img align="right" width="200px" alt="GIF" src="https://i.imgur.com/MXpmeWH.gif" />
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Neuton&font-weight=bold&size=20&color=FFFF00&background=FF0000&center=true&vCenter=true&width=400&height=60&lines=HELLO+FRIENDS+I'M+MR+LEGEND+ARYAN+😈+🤞;ARYAN+PROJECT+BOT;ARYAN+FCA+BOT;THANKYOU+FOR+USING+ARYAN+PROJECT&border=20px+solid+000000&speed=100)](https://git.io/typing-svg)
+- ❤️ **LEGEND ARYAN**  
+- 🤍 **07/05/2000**  
+- 💚 **IN A RELATIONSHIP WITH NITYA😍**  
+- ❤️ <a href="https://www.facebook.com/profile.php?id=100092750349098" target="_blank" style="color: #3b5998; text-decoration: none;">**FACEBOOK**</a>  
+- 🤍 <a href="https://www.youtube.com/@priyanshimehra10116" target="_blank" style="color: #FF0000; text-decoration: none;">**YOUTUBE**</a>  
+- 💚 <a href="https://github.com/irfan-bot-6620/BOT-3730" target="_blank" style="color: #24292e; text-decoration: none;">**GITHUB**</a>  
+- 💖 **MY LIFE MY RULES**
+- NEVER GIVE UP🙂
+- 💝देख मेरी जान दूसरों से जलने वाले हम नहीं और हम पर मरने वाले कम नहीं…!!💝
+<hr>
 
-[![Facebook](https://www.facebook.com/100095349618966/posts/454495094405474/?substory_index=1105638057649846&app=fbl)
-
-![Image](https://i.imgur.com/0aARWU3.jpeg)
-
-
-## NPM INSTALL 
-```bash
-npm install
-```
-## NPM START
-```bash
-npm start
-``
+![Image](https://i.imgur.com/jz7hLJm.jpeg)
