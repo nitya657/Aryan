@@ -1,7 +1,7 @@
 .code edit pending module.exports.config = {
         name: "pending",
         version: "1.0.5",
-        credits: "𝐓𝐇𝐄 𝐋𝐄𝐆𝐄𝐍𝐃 𝐀𝐑𝐘𝐀𝐍",
+        credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
         hasPermssion: 2,
         description: "Manage bot's waiting messages",
         commandCategory: "system",
