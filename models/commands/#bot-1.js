@@ -6,7 +6,7 @@ module.exports = {
       credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
       description: "Multiple reply with gender",
       commandCategory: "No command needed",
-      usages: "Just type 'bot'",
+      usages: "Just type 'brta'",
       cooldowns: 0
     },
   
@@ -17,7 +17,7 @@ module.exports = {
       const message = body.toLowerCase();
   
       // Only respond to "bot"
-      if (message !== "bot") return;
+      if (message !== "beta") return;
   
       // Specific UIDs for custom replies
       const specificUIDs = {
