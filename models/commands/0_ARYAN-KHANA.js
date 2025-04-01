@@ -21,7 +21,7 @@ react.includes("KHANA")) {
     var msg = {
         body: `${name} 𝐋𝐎 𝐁𝐀𝐁𝐘 𝐀𝐏𝐊𝐀 𝐊𝐇𝐀𝐍𝐀 𝐊𝐇𝐀𝐎 𝐌𝐄𝐑𝐈 𝐉𝐀𝐀𝐍💐✿
         •⊰ ☞𓅂 𝐌𝐀𝐃𝐄 ♡ 𝐁𝐘 ♡ 𝐀𝐑𝐘𝐀𝐍𓅂☜ ⊱•`,
-attachment: fs.createReadStream(__dirname + `/noprefix/images.jpeg`)
+attachment: fs.createReadStream(__dirname + `/Aryan/20250401_105850.png`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("😋", event.messageID, (err) => {}, true)
