@@ -39,16 +39,16 @@ const shayariList = [
 "बेवजह मुस्कुरा देता हूँ, और यूँ ही अपने आधे दुश्मनों को हरा देता हूँ",
 ];
 const imgLinks = [
-"https://i.imgur.com/yuA5V1z.jpeg",
-"https://i.imgur.com/REHPaUb.jpeg",
-"https://i.imgur.com/SRWtZce.jpeg",
-"https://i.imgur.com/wDBbSfC.jpeg",
-"https://i.imgur.com/w4JMclT.jpeg",
-"https://i.imgur.com/jQb9wYU.jpeg",
-"https://i.imgur.com/Qhak2J5.jpeg",
-"https://i.imgur.com/zDaDLPw.jpeg",
-"https://i.imgur.com/GPHKg9G.jpeg",
-"https://i.imgur.com/aLLW6yW.jpeg",
+"https://i.imgur.com/93Y7rls.jpeg",
+"https://i.imgur.com/e5pfdFr.jpeg",
+"https://i.imgur.com/dCW8Jwl.jpeg",
+"https://i.imgur.com/Yu7vuO8.jpeg",
+"https://i.imgur.com/bjKwuwB.jpeg",
+"https://i.imgur.com/ukJEVKW.jpeg",
+"https://i.imgur.com/iYIOInu.jpeg",
+"https://i.imgur.com/iHcG04y.jpeg",
+"https://i.imgur.com/4LExxyr.jpeg",
+"https://i.imgur.com/9Eir4rp.jpeg",
 ];
 
 let lastSentHour = null;
