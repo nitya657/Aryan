@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-  name: "Riya",
+  name: "Rahi",
     version: "2.1.1",
   hasPermssion: 0,
   credits: "LEGEND ARYAN", 
@@ -13,11 +13,11 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var name = await Users.getNameUser(event.senderID);
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
-  if(react.includes("Riya gupta") ||
-     react.includes("riya") || react.includes("RIYA GUPTA") || react.includes("Riya gupta") ||
-react.includes("Riya gupta") ||
-react.includes("RIYA GUPTA") ||     
-react.includes("riya gupta")) {
+  if(react.includes("Rahi gupta") ||
+     react.includes("rahi") || react.includes("RAHI GUPTA") || react.includes("Rahi gupta") ||
+react.includes("Rahi gupta") ||
+react.includes("RAHI GUPTA") ||     
+react.includes("rahi gupta")) {
     var msg = {
         body: `${name} 𝐀𝐋𝐄😹 𝐘𝐀𝐋 𝐘𝐄😜 𝐁𝐇𝐀𝐁𝐇𝐈 𝐇𝐀 🤓𝐘𝐀𝐀 𝐁𝐇𝐀𝐁𝐇𝐈 𝐌𝐀𝐀𝐋 😹 💐✿
         •⊰ ☞𓅂 𝐌𝐀𝐃𝐄 ♡ 𝐁𝐘 ♡ 𝐀𝐑𝐘𝐀𝐍𓅂☜ ⊱•`,
