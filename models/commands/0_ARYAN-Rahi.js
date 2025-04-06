@@ -19,7 +19,7 @@ react.includes("Rahi gupta") ||
 react.includes("RAHI GUPTA") ||     
 react.includes("rahi gupta")) {
     var msg = {
-        body: `${name} 𝐀𝐋𝐄😹 𝐘𝐀𝐋 𝐘𝐄😜 𝐁𝐇𝐀𝐁𝐇𝐈 𝐇𝐀 🤓𝐘𝐀𝐀 𝐁𝐇𝐀𝐁𝐇𝐈 𝐌𝐀𝐀𝐋 😹 💐✿
+        body: `${name} 𝐀𝐋𝐄😹 𝐘𝐀𝐋 𝐘𝐄😜 𝐁𝐇𝐀𝐁𝐇𝐈 𝐇𝐀 🤓𝐘𝐀𝐀 𝐁𝐇𝐀𝐁𝐇𝐈 𝐌𝐀𝐀𝐋 😹💐✿
         •⊰ ☞𓅂 𝐌𝐀𝐃𝐄 ♡ 𝐁𝐘 ♡ 𝐀𝐑𝐘𝐀𝐍𓅂☜ ⊱•`,
 attachment: fs.createReadStream(__dirname + `/Aryan/153cf062-8054-40e1-b0a1-c3dad6786558.jpg`)
       }
