@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
     config: {
-        name: "Cute paie",
+        name: "cute paie",
         version: "1.0.1",
         hasPermssion: 0,
         credits: "SHANKAR SUMAN",
@@ -33,7 +33,7 @@ module.exports = {
         if (lowerCaseMessage.startsWith("Soni")) {  
             // Select a random image URL from the array
             const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
-            const downloadPath = path.join(__dirname, 'Cute paie-Jpg-Images.jpg');
+            const downloadPath = path.join(__dirname, 'cute paie-Jpg-Images.jpg');
 
             // Download image from the random URL
             request(randomGif).pipe(fs.createWriteStream(downloadPath)).on('close', () => {
