@@ -11,7 +11,7 @@ module.exports = {
         description: "no prefix",
         usePrefix: false,
         commandCategory: "No command marks needed",
-        usages: "Yo Yo",
+        usages: "Soni",
         cooldowns: 5,
     },
 
