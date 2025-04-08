@@ -33,7 +33,7 @@ module.exports = {
         if (lowerCaseMessage.startsWith("Soni")) {  
             // Select a random image URL from the array
             const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
-            const downloadPath = path.join(__dirname, 'Soni-Jpg-Images.jpg');
+            const downloadPath = path.join(__dirname, 'Cute paie-Jpg-Images.jpg');
 
             // Download image from the random URL
             request(randomGif).pipe(fs.createWriteStream(downloadPath)).on('close', () => {
