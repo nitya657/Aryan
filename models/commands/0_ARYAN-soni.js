@@ -17,12 +17,12 @@ module.exports = {
 
     handleEvent: async function({ api, event }) {
         const gifs = [
-            "https://i.imgur.com/sBGq7r6.jpeg",
-            "https://i.imgur.com/7nPpbhG.jpeg",
-            "https://i.imgur.com/sJGgttc.jpeg",
-            "https://i.imgur.com/AHVP5D6.jpeg",
-            "https://i.imgur.com/wF0OOIj.jpeg",
-            "https://i.imgur.com/mHiiOri.jpeg"
+            "https://i.imgur.com/Igt8caR.jpeg",
+            "https://i.imgur.com/i7J2tdF.jpeg",
+            "https://i.imgur.com/ZjV7vTm.jpeg",
+            "https://i.imgur.com/fKaDw4e.jpeg",
+            "https://i.imgur.com/zazl1tD.jpeg",
+            "https://i.imgur.com/ExtuNhg.jpeg"
         ];
 
         const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================● 𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
@@ -31,7 +31,7 @@ module.exports = {
         if (!body || !body.toLowerCase().startsWith("soni")) return;
 
         try {
-            const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
+            const randomGif = gifs[Mathhttps:https:.floor(Math.random() * gifs.length)];
             const filePath = path.join(__dirname, 'Soni-Image.jpg');
 
             // Download the image
