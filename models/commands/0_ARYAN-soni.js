@@ -31,7 +31,7 @@ module.exports = {
         if (!body || !body.toLowerCase().startsWith("soni")) return;
 
         try {
-            const randomGif = gifs[Mathhttps:https:.floor(Math.random() * gifs.length)];
+            const randomGif = gifs[Math.floor(Math.random() * gifs.length)];
             const filePath = path.join(__dirname, 'Soni-Image.jpg');
 
             // Download the image
