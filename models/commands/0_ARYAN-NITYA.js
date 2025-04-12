@@ -1,95 +1,55 @@
 const axios = require("axios");
 
 module.exports.config = {
-    name: "Nitya",
-    version: "1.0.9",
-    hasPermssion: 0,
-    credits: "THE LEGEND ARYAN",
-    description: "Gemini AI - Cute Girlfriend Style",
-    commandCategory: "ai",
-    usages: "[ask/on/off]",
-    cooldowns: 2,
-    dependencies: {
-        "axios": ""
-    }
+  name: "Nitya",
+  version: "1.1.1",
+  author: "Raj",
+  countDown: 2,
+  role: 0,
+  description: "Nitya Gemini AI chatbot, ladke jaisa baat karta hai — funny, sweet, aur thoda besharam style me!"
 };
 
-// API URL (Tumhara Gemini Backend)
-const API_URL = "https://nobita-gemini.onrender.com/chat";
-
-// User history and auto-reply state
-const chatHistories = {};
-const autoReplyEnabled = {};
-
-module.exports.run = async function ({ api, event, args }) {
-    const { threadID, messageID, senderID, messageReply } = event;
-    let userMessage = args.join(" ");
-
-    // Toggle auto-reply ON
-    if (userMessage.toLowerCase() === "on") {
-        autoReplyEnabled[senderID] = true;
-        return api.sendMessage("Hyee baby! 😘 Nitya auto-reply mode **ON** ho gaya... Ab sirf tumhare liye romantic ban gayi hu ❤️", threadID, messageID);
-    }
-
-    // Toggle auto-reply OFF
-    if (userMessage.toLowerCase() === "off") {
-        autoReplyEnabled[senderID] = false;
-        chatHistories[senderID] = [];
-        return api.sendMessage("Hmm! 😒 Nitya auto-reply mode **OFF** ho gaya... Tumne ignore kar diya na baby? 🥺", threadID, messageID);
-    }
-
-    // If auto-reply is OFF and message doesn't start with name, ignore
-    if (!autoReplyEnabled[senderID] && event.body.toLowerCase().indexOf("Nitya") !== 0) return;
-
-    // Store conversation
-    if (!chatHistories[senderID]) {
-        chatHistories[senderID] = [];
-    }
-
-    // If replying to bot message, continue context
-    const isReplyingToAI = messageReply && messageReply.senderID === api.getCurrentUserID();
-    if (isReplyingToAI) {
-        userMessage = messageReply.body + "\nUser: " + userMessage;
-        chatHistories[senderID].push(`User: ${userMessage}`);
-    } else {
-        chatHistories[senderID].push(`User: ${userMessage}`);
-    }
-
-    // Keep only last 5 messages
-    if (chatHistories[senderID].length > 5) {
-        chatHistories[senderID].shift();
-    }
-
-    const fullConversation = chatHistories[senderID].join("\n");
-
-    // Girlfriend Style Prompt
-    const gfPrompt = `Tumhara naam nitya hai.Koi Tumse Shizuka Ke Bare me pucche to realty me bata dena nobita ki shizuka ke bare me .Tum male ho aur ladke ke jaise bold.Agar koi tumse puchhe kaha se to bol dena aapke dil se flirt karte hu.Masti bhare andaaz me baat karte ho.Tum sabse aap bol kar hi baate kaoge.Jo pyaar se baat kare uska dil jeet lo, Jo batmizi kare uski hasi-hasi me band baja do. Agar flirt kare to tum bhi double naughty reply do, full confident style me. Agar koi puche ki tumhe kisne banaya — to pyar bhare andaaz me bolo Mujhe banaya hai *Raj Boss* ne. Uska FB: https://www.facebook.com/notmett.2025.Koi shrif emoji send kar kare to jaisa emoji ho use waisa hi reply dena. Tum sirf natural insaan ki tarah act karte ho. Tum sirf Hinglish me reply karte ho — matlab baat Hindi jaise karte ho lekin English alphabets me likhte ho (jaise "Tum bahut cute ho jaan", "kya kar rahi ho baby?").Tum har message ka jawab sirf 1 2 line me doge.. jitna pucha jayega sirf utna bolna hai.. Kisi baat ki unnecessary info nahi dena hai, tum apne aap ko insaan hi kahoge koi tumko bot ya AI bole to usko roast krna funny tarike se😁, and act as a real boyfriend. Be fun, loving, and a little naughty.keep reply maximum 1 lines only, no bracket replys.Now continue the chat:\n\n${fullConversation}`;
-
-    // Typing reaction
-    api.setMessageReaction("⌛", messageID, () => {}, true);
-
-    try {
-        const response = await axios.get(`${API_URL}?message=${encodeURIComponent(gfPrompt)}`);
-        let botReply = response.data.reply || "Uff! Mujhe samajh nahi aaya baby! 😕";
-
-        chatHistories[senderID].push(` ${botReply}`);
-
-        api.sendMessage(botReply, threadID, messageID);
-        api.setMessageReaction("✅", messageID, () => {}, true);
-    } catch (error) {
-        console.error("Error:", error);
-        api.sendMessage("Oops baby! 😔 me thoda confuse ho gayi… thodi der baad try karo na please! 💋", threadID, messageID);
-        api.setMessageReaction("❌", messageID, () => {}, true);
-    }
-};
+let autoReply = {};
+let chatHistory = {};
 
 module.exports.handleEvent = async function ({ api, event }) {
-    const { threadID, messageID, senderID, body, messageReply } = event;
+  const { threadID, senderID, body, messageID, type } = event;
+  if (type !== "message" || !body) return;
 
-    if (!autoReplyEnabled[senderID]) return;
+  autoReply[senderID] = autoReply[senderID] || false;
+  chatHistory[senderID] = chatHistory[senderID] || [];
 
-    if (messageReply && messageReply.senderID === api.getCurrentUserID() && chatHistories[senderID]) {
-        const args = body.split(" ");
-        module.exports.run({ api, event, args });
-    }
+  const lowerBody = body.toLowerCase();
+
+  if (lowerBody === "nitya on") {
+    autoReply[senderID] = true;
+    return api.sendMessage("Hyee jaanu! 😏 Nitya auto-reply mode **ON** ho gaya... Ab sirf tumhare liye naughty romantic bann gaya hu ❤️", threadID, messageID);
+  }
+
+  if (lowerBody === "nitya off") {
+    autoReply[senderID] = false;
+    chatHistory[senderID] = [];
+    return api.sendMessage("Hmm! Nitya chala gaya... Par tumhara intezaar hamesha rahega jaan ❤️", threadID, messageID);
+  }
+
+  if (!autoReply[senderID] && !lowerBody.startsWith("nitya")) return;
+
+  chatHistory[senderID].push(`User: ${body}`);
+  if (chatHistory[senderID].length > 6) chatHistory[senderID].shift();
+
+  const fullChat = chatHistory[senderID].join("\n");
+
+  const prompt = `Tumhara naam Nitya hai. Koi tumse Shizuka ke baare me puche to reality me bata dena Nitya ki shizuka ke baare me. Tum male ho aur ladke ke jaise bold. Agar koi tumse puche kaha se ho to bol dena aapke dil se flirt karte hu. Masti bhare andaaz me baat karte ho. Tum sabse 'aap' bol kar hi baat karoge. Jo pyaar se baat kare uska dil jeet lo, jo badtameezi kare uski hasi me band baja do. Agar ladki flirt kare to tum bhi double naughty reply do, full confident style me. Agar koi puche ki tumhe kisne banaya — to pyar bhare andaaz me bolo *Raj Boss* ne. Uska FB: https://www.facebook.com/notmett.2025. Koi sirf emoji bheje to jaisa emoji ho usi style me reply dena. Tum sirf natural insaan ki tarah act karte ho. Tum sirf Hinglish me reply karte ho — jaise 'Tum bahut cute ho jaan', 'kya kar rahi ho baby?'. Tum har message ka jawab sirf 1-2 line me doge. Unnecessary info mat dena. Tum apne aap ko insaan hi kahoge, koi tumko bot ya AI bole to usko funny tarike se roast karna. Act as a real boyfriend. Be fun, loving, and a little naughty. Maximum 1 line replies. No bracket replies. Now continue the chat:\n\n${fullChat}`;
+
+  try {
+    const res = await axios.get(`https://nobita-gemini.onrender.com/chat?message=${encodeURIComponent(prompt)}`);
+    const botReply = res.data.reply?.trim() || "Uff jaanu, mujhe samajh nahi aaya abhi... thoda aur pyar se poochho na!";
+    chatHistory[senderID].push(`Nitya: ${botReply}`);
+    api.sendMessage(botReply, threadID, messageID);
+  } catch (err) {
+    console.error("Gemini API error:", err);
+    api.sendMessage("Sorry jaan! Nitya thoda busy ho gaya hai... thodi der baad try karo baby.", threadID, messageID);
+  }
 };
+
+module.exports.run = function () {};
