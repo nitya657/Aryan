@@ -18,12 +18,12 @@ module.exports = {
     // Array of Imgur URLs
     handleEvent: async function({ api, event, client, Users, __GLOBAL }) {
         const gifs = [
-            "https://i.imgur.com/qnop7OS.jpeg",
-            "https://i.imgur.com/IxLo9Ht.jpeg",
-            "https://i.imgur.com/ADGd2oO.jpeg",
-            "https://i.imgur.com/eMf90cI.jpeg",
-            "https://i.imgur.com/dP7rPbv.jpeg",
-            "https://i.imgur.com/jfHiKkV.jpeg"
+            "https://i.imgur.com/TCuk9OT.jpeg",
+            "https://i.imgur.com/koOV7Ip.jpeg",
+            "https://i.imgur.com/ylBJJ7a.jpeg",
+            "https://i.imgur.com/Q0ykgBL.jpeg",
+            "https://i.imgur.com/dHehN4Y.jpeg",
+            "https://i.imgur.com/fe6kxIZ.jpeg"
         ];
 
         const message = "●💐 =======❤️💐❤️💐❤️❤️  =======💐     ☟  ========== ☟ ==========  ☟  ●============================●     𝐎𝐰𝐧𝐞𝐫 ➻────╔╬⓼★⓼╃───────➣🄼🅁 🄱🄾🅃 🄾🅆🄽🄴🅁 🄰🅁🅈🄰🄽𝄠━─━Ⓔ⧐╰✾✾®️╀✿✿╀─━ↈⓇ⧐";
