@@ -47,7 +47,7 @@ module.exports.handleEvent = async function({ api, event }) {
       const user = ThreadInfo.userInfo.find(user => user.id === senderID);
  
       // Check if the sender is the bot owner
-      const botOwnerID = "100095016803089"; // Your bot owner UID
+      const botOwnerID = "61573524373692"; // Your bot owner UID
       let responseArray;
  
       if (senderID === botOwnerID) {
