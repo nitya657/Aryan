@@ -35,7 +35,7 @@ module.exports = {
           "Ji farmaye kya hukum hai",
         ],
         
-        //aryan 100095016803089
+        //aryan 61573524373692
         "61573524373692": ["Hello Papa 🙈",
           "Haaji Kya huva🫣",
           "Bolo Sarkar",
