@@ -58,7 +58,7 @@ module.exports = {
         "61573564354420": ["Hello Mummy 😘", "Mummy kesi ho aap 🙈", "Mummy meko khelne jaana hai 🥺", "Papa kaha hai mummy 🫣", "Mummy papa yaad kar rahe the na aapko 🙈", "Batao kya help karu mom aapki me", "Chocolate do na mujhe 🥺", "Mummy mera bhai kab aayega 🙈🫣", "Haaji kyu bulaya meko 😺", "Bolo kya seva karu aapki"],
         
         //Faisu 100090281856658
-        "100090281856658": ["Hello faisu Chacha 🫣", "Chacha ghumane kab leke jaa rahe meko 🙈", "Aryan chacha kese ho aap 😺", "Chacha meri chachi kaha hai 🫣, Dikha nahi rahi aaj 😺", "Bolo Chacha meri bahan kab aayegi 🙈😋", "nitya mummy aapko yaad kar rahi thi chacha 🫣"],
+        "61578024207690": ["𝐇𝐞𝐥𝐥𝐨 𝐀𝐲𝐚𝐚𝐧 𝐛𝐚𝐝𝐞 𝐚𝐛𝐛𝐮 🫣", "𝐁𝐚𝐝𝐞 𝐚𝐛𝐛𝐮 𝐆𝐡𝐮𝐦𝐚𝐧𝐞 𝐤𝐚𝐛 𝐋𝐞𝐤𝐚𝐫 𝐉𝐚𝐚 𝐑𝐡𝐞 𝐡𝐨 𝐌𝐞𝐤𝐨 🙈", "𝐀𝐲𝐚𝐚𝐧 𝐛𝐚𝐝𝐞 𝐩𝐚𝐩𝐚 𝐊𝐚𝐢𝐬𝐞 𝐇𝐨 𝐀𝐚𝐩 😺", "𝐁𝐚𝐝𝐞 𝐩𝐚𝐩𝐚 𝐌𝐞𝐫𝐢 𝐁𝐚𝐝𝐢 𝐀𝐦𝐦𝐢 𝐊𝐚𝐡𝐚 𝐇𝐚𝐢 🫣, 𝐃𝐢𝐤𝐡 𝐍𝐚𝐡𝐢 𝐑𝐚𝐡𝐢 𝐀𝐚𝐣 😺", "𝐁𝐨𝐥𝐨 𝐁𝐚𝐝𝐞 𝐀𝐛𝐛𝐮 𝐌𝐞𝐫𝐢 𝐁𝐚𝐡𝐞𝐧 𝐊𝐚𝐛 𝐀𝐚𝐲𝐞𝐠𝐢 🙈😋", "𝐍𝐢𝐭𝐲𝐚 𝐌𝐮𝐦𝐦𝐲 𝐀𝐚𝐩𝐤𝐨 𝐘𝐚𝐚𝐝 𝐊𝐚𝐫 𝐑𝐚𝐡𝐢 𝐓𝐇𝐈 𝐁𝐚𝐝𝐞 𝐚𝐛𝐛𝐮 🫣"],
         
         //Kaliya 61555904006906
         "61555904006906": ["Hello kaliya Mama 🫣", "Bolo Mama kyu yaad kiya mujhe 😺", "Ha bolo😉", "Kya huva kyu yaad kiya mujhe 🙂", "Mama tang na karo🥱", "Ki huva😒", "kaliya Mama meri mami kesi hai 🙈", "Raj mama mummy ko pareshan mat kiya karo 😒", "Mama or batao chocolate kab khilaoge meko😋"],
