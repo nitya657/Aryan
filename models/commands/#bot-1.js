@@ -21,7 +21,7 @@ module.exports = {
   
       // Specific UIDs for custom replies
       const specificUIDs = {
-        //Aryan
+        //Aryan 61573524373692
         "61573524373692": ["𝐇𝐀𝐀 𝐉𝐈 𝐏𝐀𝐏𝐀🙈",
           "𝐌𝐔𝐉𝐇𝐄 𝐁𝐔𝐋𝐘𝐀 𝐏𝐀𝐏𝐀 𝐀𝐏𝐍𝐄🫣",
           "𝐁𝐎𝐋𝐎 𝐏𝐘𝐀𝐑𝐄 𝐏𝐀𝐏𝐀 𝐆",
