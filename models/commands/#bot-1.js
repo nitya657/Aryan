@@ -6,7 +6,7 @@ module.exports = {
       credits: "𝐏𝐫𝐢𝐲𝐚𝐧𝐬𝐡 𝐑𝐚𝐣𝐩𝐮𝐭",
       description: "Multiple reply with gender",
       commandCategory: "No command needed",
-      usages: "Just type 'brta'",
+      usages: "Just type 'beta'",
       cooldowns: 0
     },
   
