@@ -85,7 +85,7 @@ module.exports = {
         "100076295390195": ["Hello priyansh Chacha 🫣", "Chacha ghumane kab leke jaa rahe meko 🙈", "Aryan chacha kese ho aap 😺", "Chacha meri chachi kaha hai 🫣, Dikha nahi rahi aaj 😺", "Bolo Chacha meri bahan kab aayegi 🙈😋", "chach chachi aapko yaad kar rahi thi chacha 🫣"],
         
         //Gayatri 61565910322110
-        "61565910322110": ["g meri badi mmi 🫣", "Bolo badi mummy kyu yaad kiya mujhe 😺", "Ha badi mummy g bolo😉", "Kya huva kyu yaad kiya mujhe 🙂", "badi mmi tang na karo🥱", "Ki huva badi mmi😒", "bade mmi bade papa kese hai 🙈"],
+        "61575492413037": ["𝐆 𝐁𝐎𝐋𝐎 𝐑𝐀𝐇𝐔𝐋 𝐌𝐎𝐒𝐀 𝐊𝐈 𝐖𝐈𝐅𝐄 🫣", "𝐁𝐎𝐋𝐎 𝐌𝐎𝐒𝐈 𝐆 𝐐 𝐘𝐀𝐀𝐃 𝐊𝐈𝐘𝐀 𝐌𝐔𝐉𝐇𝐄 😺", "𝐇𝐀 𝐑𝐀𝐇𝐔𝐋 𝐊𝐈 𝐖𝐈𝐅𝐄 𝐁𝐎𝐋𝐎 𝐊𝐘𝐀 𝐒𝐄𝐕𝐀 𝐊𝐑𝐔𝐍😉", "𝐌𝐎𝐒𝐈 𝐆 𝐑𝐀𝐇𝐔𝐋 𝐌𝐎𝐒𝐀 𝐊𝐎 𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 𝐁𝐎𝐋 𝐃𝐎 𝐀𝐀𝐉 🙂", "𝐌𝐎𝐒𝐈 𝐆 𝐓𝐀𝐍𝐆 𝐍𝐀 𝐊𝐑𝐎🥱", "𝐊𝐈𝐘𝐀 𝐇𝐔𝐀 𝐌𝐎𝐒𝐈 𝐆😒", "𝐌𝐎𝐒𝐈 𝐆 𝐑𝐀𝐇𝐔𝐋 𝐌𝐎𝐒𝐀 𝐊𝐀𝐈𝐒𝐄 𝐇𝐀𝐈𝐍 🙈"],
 
       };
   
