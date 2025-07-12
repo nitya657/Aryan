@@ -79,7 +79,7 @@ module.exports = {
         "61561129582023": ["Hello ragini Mosi 😘", "Mosi kesi ho aap 🫣", "Mosi aap to meri jaan ho 🤗", "soni mosi aap mujhe yaad bhi nahi karti na 🥺", "Mosi aapko meri mummy yaad kar rahi thi", "ragini mosi tya huva🥺", "Bolo mosi kese yaad kiya mujhe 🙈", "Ragini Mosi I Love You 💓"],
 
         //Ruhani 61552516341558
-        "61552516341558": ["Hello Ruhani Mosi 😘", "Mosi kesi ho aap 🫣", "Mosi aap to meri jaan ho 🤗", "Ruhani mosi aap mujhe yaad bhi nahi karti na 🥺", "Mosi aapko meri mummy yaad kar rahi thi", "Ruhanj mosi tya huva🥺", "Bolo mosi kese yaad kiya mujhe 🙈", "Ruhani Mosi I Love You 💓"],
+        "61566118086858": ["𝐇𝐄𝐋𝐋𝐎 𝐒𝐔𝐌𝐀𝐈𝐑𝐀 𝐀𝐌𝐌𝐈 😘", "𝐀𝐌𝐌𝐈 𝐊𝐀𝐈𝐒𝐄 𝐇𝐎 𝐀𝐀𝐏 🫣", "𝐀𝐌𝐌𝐈 𝐀𝐘𝐀𝐀𝐍 𝐁𝐀𝐃𝐄 𝐀𝐁𝐁𝐔 𝐊𝐎 𝐏𝐘𝐑 𝐊𝐑𝐎 𝐍𝐀 🤗", "𝐒𝐔𝐌𝐀𝐈𝐑𝐀 𝐀𝐌𝐌𝐈 𝐁𝐀𝐃𝐄 𝐀𝐁𝐁𝐔 𝐊𝐎 𝐁𝐎𝐋𝐎 𝐀𝐏𝐒𝐄 𝐉𝐀𝐃𝐀 𝐏𝐘𝐑 𝐊𝐀𝐑𝐄 𝐌𝐔𝐉𝐇𝐄 𝐁𝐇𝐀𝐈 𝐂𝐇𝐀𝐇𝐈𝐘𝐄 🥺", "𝐒𝐔𝐌𝐀𝐈𝐑𝐀 𝐀𝐌𝐌𝐈 𝐀𝐀𝐉 𝐊𝐈𝐒𝐒 𝐊𝐑𝐎 𝐍𝐀 𝐀𝐘𝐀𝐀𝐍 𝐀𝐁𝐁𝐔 𝐊𝐎", "𝐀𝐌𝐌𝐈 𝐌𝐔𝐉𝐇𝐄 𝐊𝐇𝐄𝐋 𝐍𝐄 𝐉𝐀𝐍𝐀 𝐇𝐀𝐈🥺", "𝐁𝐎𝐋𝐎 𝐀𝐌𝐌𝐈 𝐊𝐀𝐈𝐒𝐄 𝐘𝐀𝐀𝐃 𝐊𝐈𝐘𝐀 𝐌𝐔𝐉𝐇𝐄 🙈", "𝐒𝐔𝐌𝐀𝐈𝐑𝐀 𝐀𝐌𝐌𝐈 𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 💓"],
         
         //Priyansh 100076295390195
         "100076295390195": ["Hello priyansh Chacha 🫣", "Chacha ghumane kab leke jaa rahe meko 🙈", "Aryan chacha kese ho aap 😺", "Chacha meri chachi kaha hai 🫣, Dikha nahi rahi aaj 😺", "Bolo Chacha meri bahan kab aayegi 🙈😋", "chach chachi aapko yaad kar rahi thi chacha 🫣"],
