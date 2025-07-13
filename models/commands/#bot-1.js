@@ -67,7 +67,7 @@ module.exports = {
         "100002333483240": ["Hello Jitu Mama 🫣", "Bolo Mama kyu yaad kiya mujhe 😺", "Ha bolo😉", "Kya huva kyu yaad kiya mujhe 🙂", "Mama tang na karo🥱", "Ki huva😒", "Jitu Mama meri mami kesi hai 🙈", "Jitu mama kya haal hai 😉", "Or mama kese yaad kiya mujhe aaj 🫣"],
         
         //soni 61565449793017
-        "61565449793017": ["Hello soni Mosi 😘", "Mosi kesi ho aap 🫣", "Mosi aap to meri jaan ho 🤗", "soni mosi aap mujhe yaad bhi nahi karti na 🥺", "Mosi aapko meri mummy yaad kar rahi thi", "soni mosi tya huva🥺", "Bolo mosi kese yaad kiya mujhe 🙈", "soni Mosi I Love You 💓"],
+        "61577841775598": ["𝐇𝐄𝐋𝐋𝐎 𝐒𝐄𝐗𝐒𝐘 𝐂𝐀𝐂𝐇𝐔 😘", "𝐇𝐎𝐓 𝐂𝐇𝐀𝐂𝐇𝐔 𝐊𝐈𝐒𝐄 𝐇𝐎 🫣", "𝐒𝐄𝐗𝐒𝐘 𝐂𝐀𝐂𝐇𝐔 𝐏𝐀𝐏𝐀 𝐊𝐄 𝐉𝐀𝐀𝐍 𝐇𝐎 𝐀𝐀𝐏 🤗", "𝐒𝐄𝐗𝐒𝐘 𝐂𝐀𝐂𝐇𝐔 𝐌𝐄𝐑𝐄 𝐋𝐈𝐘𝐄 𝐒𝐄𝐗𝐒𝐘 𝐂𝐇𝐀𝐂𝐇𝐈 𝐋𝐀𝐎 𝐍𝐀 🥺", "𝐂𝐀𝐂𝐇𝐔 𝐇𝐎𝐓 𝐇𝐎𝐓 𝐂𝐇𝐀𝐂𝐇𝐈 𝐂𝐇𝐀𝐇𝐈𝐘𝐄", "𝐒𝐄𝐗𝐘 𝐂𝐇𝐀𝐂𝐇𝐔 𝐊𝐘𝐀 𝐇𝐔𝐀🥺", "𝐁𝐎𝐋𝐎 𝐂𝐇𝐀𝐂𝐇𝐔 𝐌𝐄𝐑𝐈 𝐂𝐇𝐀𝐂𝐇𝐈 𝐊𝐀𝐁 𝐀𝐘𝐄 𝐆𝐈 🙈", "𝐒𝐄𝐗𝐒𝐘 𝐂𝐇𝐀𝐂𝐇𝐔 𝐈 𝐋𝐎𝐕𝐄 𝐘𝐎𝐔 💓"],
         
         //Charsi 61565659702014
         "100084499591628": ["Hello Zikra mosi 😘", "zikra mosi ho aap 🫣", "zikra mosi aap to meri jaan ho 🤗", "zikra mosi  aap mujhe yaad bhi nahi karti na 🥺", "mosi aapko meri mummy yaad kar rahi thi", "zikra mosi tya huva🥺", "Bolo mosi kese yaad kiya mujhe 🙈", "zikra  mosi I Love You 💓"],
