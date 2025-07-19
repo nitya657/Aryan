@@ -36,7 +36,7 @@ module.exports = {
         ],
         
         //aryan 61573524373692
-        "61573524373692": ["Hello Papa 🙈",
+        "61577522637821": ["Hello Papa 🙈",
           "Haaji Kya huva🫣",
           "Bolo Sarkar",
           "Haaji kya seva karu Owner shab aapki",
