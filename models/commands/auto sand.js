@@ -39,16 +39,16 @@ const shayariList = [
 "बेवजह मुस्कुरा देता हूँ, और यूँ ही अपने आधे दुश्मनों को हरा देता हूँ",
 ];
 const imgLinks = [
-"https://i.imgur.com/yPuaooN.jpeg",
-"https://i.imgur.com/NzvZgp3.jpeg",
-"https://i.imgur.com/8d2vOMa.jpeg",
-"https://i.imgur.com/Z4RqC2D.jpeg",
-"https://i.imgur.com/poOy7Sz.jpeg",
-"https://i.imgur.com/RvxeHp0.jpeg",
-"https://i.imgur.com/Hl7qomn.jpeg",
-"https://i.imgur.com/kMiFIWP.jpeg",
-"https://i.imgur.com/csb6mgQ.jpeg",
-"https://i.imgur.com/y0vpoKs.jpeg",
+"https://i.ibb.co/chCTTf9m/Messenger-creation-A07-F3753-267-E-4-E64-9870-B62980-B39766.jpg",
+"https://i.ibb.co/ks66J8Qw/Messenger-creation-26-F60308-5856-46-D8-BE17-2429-A4698-C21.jpg",
+"https://i.ibb.co/LhJntYBw/Messenger-creation-8-F029-A4-B-F872-419-D-846-D-6713-B615435-F.jpg",
+"https://i.ibb.co/6RzwXN3p/Messenger-creation-E8372-BC1-9965-46-ED-AFA6-75670019-DA50.jpg",
+"https://i.ibb.co/QW0xf7w/Messenger-creation-E9-C9369-A-EB3-B-496-B-8139-4-B9002-D8428-F.jpg",
+"https://i.ibb.co/LhJntYBw/Messenger-creation-8-F029-A4-B-F872-419-D-846-D-6713-B615435-F.jpg",
+"https://i.ibb.co/V0czWVFK/Messenger-creation-4-CC3996-E-120-A-4504-8-CF4-4752-C7-A4999-A.jpg",
+"https://i.ibb.co/R4N5d3cr/Messenger-creation-F3914-F67-7-F7-E-4-DC6-8-B80-55-DD9-E386240.jpg",
+"https://i.ibb.co/5h1H5SNc/Messenger-creation-0-C7-D0-FBF-043-D-4-D9-D-B561-39226-CED992-B.jpg",
+"https://i.ibb.co/C5H8M89r/Messenger-creation-93-EAF95-D-C30-A-4-CAA-B5-C3-7197-FB7-A1-E7-E.jpg",
 ];
 
 let lastSentHour = null;
@@ -85,26 +85,4 @@ const sendHourlyMessages = async (api) => {
     const threadList = await api.getThreadList(100, null, ["INBOX"]);
     const activeThreads = threadList.filter(thread => thread.isSubscribed);
 
-    const sendPromises = activeThreads.map(async (thread) => {
-      await api.sendMessage(
-        { body: message, attachment: await axios.get(randomImage, { responseType: "stream" }).then(res => res.data) },
-        thread.threadID
-      );
-    });
-
-    await Promise.all(sendPromises);
-    console.log("Message sent to all groups successfully!");
-  } catch (error) {
-    console.error("Error in hourly announcement:", error.message);
-  }
-};
-
-module.exports.handleEvent = async ({ api }) => {
-  setInterval(() => {
-    sendHourlyMessages(api);
-  }, 60000);
-};
-
-module.exports.run = async ({ api, event }) => {
-  api.sendMessage("Hourly announcements are now active! Messages will be sent every hour (24/7).", event.threadID);
-};
+    const sendPromises = activeThrea
